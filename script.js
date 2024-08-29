@@ -3,7 +3,7 @@ const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
-const loader =document.getElementById('loader');
+const loader = document.getElementById('loader');
 
 let apiQuotes = [];
 
@@ -37,7 +37,7 @@ function newQuote(){
         quoteText.classList.remove('long-quote');
     }
     // Set Quote, Hide Loader
-    quoteText.textContent = quote.text;
+    quoteText.textContenft = quote.text;
     complete(); 
 }
 
